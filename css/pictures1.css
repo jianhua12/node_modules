@@ -1,0 +1,194 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.baozhu{
+	width: 910px;
+	height: 280px;
+	margin: 5px;
+	border:1px solid #ccc;
+}
+.left{
+	height: 244px;
+	width: 80px;
+    float: left;
+    margin-top: 18px;
+}
+.left img{
+    margin-top: 83px;
+	margin-left:20px;
+}
+
+.right{
+	height: 244px;
+	width: 80px;
+	float: right;
+	margin-top: 18px;
+}
+.right img{
+	margin-top: 83px;
+	margin-left: 20px;
+
+}
+.zhong{
+	height: 244px;
+	width: 744px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	margin-top: 18px;
+}
+.zhong img{
+	width: 350px;
+	height: 244px;
+}
+
+@media(max-width: 1024px){
+  .baozhu{
+	width: 910px;
+	height: 280px;
+}
+
+  .left{
+	height: 244px;
+	width: 80px;
+    float: left;
+    margin-top: 18px;
+}
+
+   .left img{
+    margin-top: 83px;
+	margin-right:20px;
+}
+
+
+   .right{
+	height: 244px;
+	width: 80px;
+	float: right;
+	margin-top: 18px;
+}
+
+
+   .right img{
+	margin-top: 83px;
+	margin-left: 20px;
+
+}
+
+   .zhong{
+	height: 244px;
+	width: 744px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	margin-top: 18px;
+
+}
+
+   .zhong img{
+	width: 350px;
+	height: 244px;
+
+}
+}
+
+/*      */
+
+
+@media(max-width: 768px){
+  .baozhu{
+	width: 100%;
+	height: 280px;
+}
+
+  .left{
+	height: 244px;
+	width: 10%;
+    float: left;
+    margin-top: 18px;
+}
+
+   .left img{
+    margin-top: 83px;
+	margin-right:20px;
+}
+
+
+   .right{
+	height: 244px;
+	width: 10%;
+	float: right;
+	margin-top: 18px;
+}
+
+   .right img{
+	margin-top: 83px;
+	margin-left: 20px;
+
+}
+
+   .zhong{
+	height: 244px;
+	width:80%;
+	float: left;
+	text-align: center;
+	margin-top: 18px;
+
+}
+
+   .zhong img{
+	width: 350px;
+	height: 244px;
+}
+}
+/*    */
+
+@media(max-width: 767px){
+  .baozhu{
+	width: 97%;
+	height: 280px;
+}
+
+  .left{
+	height: 244px;
+	width: 10%;
+    float: left;
+    margin-top: 18px;
+}
+
+   .left img{
+    margin-top: 93px;
+	width: 75%;
+	margin-left: 4px;
+}
+
+
+   .right{
+	height: 244px;
+	width: 10%;
+	float: right;
+	margin-top: 18px;
+}
+
+   .right img{
+	margin-top: 93px;
+	width: 75%;
+	margin-left: 6px;
+
+}
+
+   .zhong{
+	height: 244px;
+	width:80%;
+	float: left;
+	text-align: center;
+	margin-top: 18px;
+
+}
+
+   .zhong img{
+	width: 100%;
+	height: 244px;
+}
+}

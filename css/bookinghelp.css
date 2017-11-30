@@ -1,0 +1,284 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.content{
+   width: 910px;
+   height: 100%;
+   margin: auto;
+}
+.wenzi{
+  border: 1px solid #ccc;
+  margin-bottom:5px;
+}
+.wenzi p{
+    line-height: 16px;
+    font-size: 12px;
+    padding-right: 5px; 
+    padding-left:  5px;
+    margin-top:5px;
+}
+ .biaoti{
+  height: 25px;
+}
+ .biaoti2{
+    font-size: 12px;
+    padding: 5px;
+    line-height: 13px;
+}
+.biaoti b{
+   font-size: 11px;
+   background-color: #e5f0fb;
+   display:block;
+  height: 15px;
+  margin-top:-5px; 
+  padding-top:5px; 
+}
+.bookduanluo{
+  margin-bottom: 30px;
+}
+
+  .jiudian{
+      display: none;
+    }
+    .bi{
+ font-size: 14px;
+    margin-top: 25px;
+    font-weight: 700;
+    display: block;
+}
+.left2{
+  float: left;
+  width: 70%;
+     
+}
+.tuanniu1{
+   margin-top:10px; 
+}
+.tuanniu2{
+   margin-top:10px; 
+   margin-bottom: 30px;
+}
+
+.right2{
+  float:right;
+  width: 27%;
+
+  border-left:1px solid #ccc; 
+  margin-top:15px; 
+  padding-left: 50px;
+}
+.right2 span{
+  display: block;
+}
+.tuanniu3{
+    width: 144px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    margin-left: 2px;
+    border-radius: 5px;
+    margin: auto;
+
+        background-color: rgb(196, 35, 72);
+        margin-top: 10px;
+}
+
+
+.tuanniu4{
+    width: 144px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    margin-left: 2px;
+    border-radius: 5px;
+    margin: auto;
+
+        background-color: rgb(196, 35, 72);
+        margin-top: 10px;
+}
+
+
+
+
+@media(max-width: 1024px){
+.content{
+   width: 910px;
+   height: 100%;
+   margin: auto;
+
+}
+
+.wenzi{
+  border: 1px solid #ccc;
+  margin-bottom:5px;
+}
+
+.wenzi p{
+    font-size: 12px;
+}
+
+ .biaoti{
+  height: 25px;
+}
+
+ .biaoti2{
+    font-size: 12px;
+
+}
+
+.biaoti b{
+   font-size: 11px;
+   background-color: #e5f0fb;
+   display:block;
+  height: 15px;
+
+}
+@media(max-width: 1024px){
+.bookduanluo{
+  margin-bottom: 30px;
+}}
+
+/*     */
+
+
+@media(max-width: 768px){
+.content{
+  overflow: hidden;
+   width: 100%;
+   height: 100%;
+
+}
+body{
+  overflow-x: hidden;
+}
+
+.wenzi{
+  border: 1px solid #ccc;
+  margin-bottom:5px;
+   width: 98%;
+      margin-left: 1%;
+}
+
+.wenzi p{
+    font-size: 10px;
+
+}
+
+ .biaoti{
+  height: 25px;
+}
+
+ .biaoti2{
+    font-size: 12px;
+
+}
+
+.biaoti b{
+   font-size: 11px;
+   background-color: #e5f0fb;
+   display:block;
+  height: 15px;
+
+}
+
+.bookduanluo{
+  margin-bottom: 30px;
+}
+
+
+.c2_pt{
+  width: 100%;
+}
+.left2{
+   width: 100%;
+}
+.right2{
+  width: 100%;
+     padding-left: 0px;
+    text-align: center;
+    border: none;
+}
+.right2 span{
+  display:inline;
+}
+
+}
+
+
+
+/*     */
+
+
+@media(max-width: 767px){
+.content{
+   width: 100%;
+   height: 100%;
+
+}
+
+.wenzi{
+  border: 1px solid #ccc;
+  margin-bottom:5px;
+  width: 98%;
+      margin-left: 1%;
+}
+
+.wenzi p{
+    font-size: 12px;
+    width: 100%;
+
+}
+
+ .biaoti{
+  height: 25px;
+  width: 100%;
+}
+ .biaoti2{
+    font-size: 12px;
+    
+
+}
+.biaoti b{
+   font-size: 11px;
+   background-color: #e5f0fb;
+   display:block;
+  height: 15px;
+
+}
+.bookduanluo{
+  margin-bottom: 40px;
+  width: 100%;
+}
+.c2_pt{
+  width: 100%;
+}
+.dibutupian{
+  width: 100%;
+  height: 100%;
+}
+.dibutupian{
+   display: none;
+}
+
+.jiudian{
+   display: block;
+}
+.right2{
+    padding:15px; 
+}
+.dadatu{
+  height: 250px;
+}
+.tuanniu3{
+    width: 100%;
+    height: 35px;
+    border: none;
+    color: #fff;
+    margin-left: 2px;
+    border-radius: 5px;
+    margin: auto;
+        background-color: rgb(196, 35, 72);
+        margin-top: 10px;
+}
+}

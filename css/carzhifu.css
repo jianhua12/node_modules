@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.pick-content{
+	width: 100%;
+	height: 100%;
+}
+.pick-content .right{
+    float: right;
+    width: 40%;
+    height: 100%;
+    padding-left:20px; 
+  
+
+}
+.xuxian{
+	 border-bottom: 1px dashed #000;
+	 margin-right:20px; 
+}
+.pick-content .left{
+	width: 60%;
+	height: 100%;
+	border: 1px solid #ccc;
+	padding-left:20px; 
+}
+.shuaka{
+	width: 90%;
+	height: 60px;
+	border: 1px solid #ccc;
+	margin-bottom:80px; 
+
+
+}
+.aa li{
+	float: left;
+	width: 80px;
+	height: 57px;
+	padding: 8px 10px;
+	margin-left:3%; 
+}
+.aa li img{
+   width: 100%;
+   height: 100%;
+}
+.fanhui{
+	margin-bottom: 20px; 
+}
+.fanhui .jiantou{
+	
+    font-size: 18px;
+    margin-top:30px; 
+    display: inline-block;
+    color: #c42348;
+}
+.anniu{
+	width: 133px;
+	height: 34px;
+	background-color:  rgb(196, 35, 72);
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	margin-left:100px; 
+}
+.h1{
+	font-size: 16px;
+	margin-top:5px; 
+	margin-top:30px; 
+  font-weight: 700;
+	 }
+
+  .h2{
+  	margin-top:30px;
+  }
+  .right-right{
+  	width: 100%;
+     font-size: 16px;
+     margin-top:30px; 
+     display: inline-block;
+  }
+
+ .qian{
+  	float: right; 
+  	margin-right: 20px; 
+  	margin-bottom: 20px; 
+    background-color: transparent;
+    color: #c42348;
+    font-weight:700;
+  }
+.hou{
+  font-weight:700;
+}
+  .aa li{
+        background: url('../images/kaka.jpg')no-repeat 100%/-8%; 
+      
+      }
+      
+    
+.biankuang {
+    border: 1px solid #ccc;
+    padding-left: 5px;
+
+    margin-right: 20px;
+}
+
+    @media(max-width:  768px){
+    .aa li{
+          width: 64px;
+    }
+
+
+
+    .pick-content  .right{
+         clear:both;
+         width: 100%;
+         height: 100%;
+         margin-top: -20px;
+    }
+
+
+   .pick-content  .left{
+          border: none;
+         width: 100%;
+         height: 100%;
+    }
+
+    .aa li{
+         width: 12%;
+    }
+    
+}
+@media(max-width:  768px){
+ .yinghang{
+  width: 100%;
+ }
+}
+ .yinghang span{
+  width: 45%;
+ }
+
+}
+@media(max-width:  768px){
+.shuaka{
+   height: 66px;
+ 
+}
+}
+@media(max-width:  767px){
+  .pick-content  .right{
+         clear:both;
+         width: 100%;
+         height: 100%;
+         margin-top: -45px;
+             margin-bottom: 40px;
+    }
+
+.biankuang {
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+    .aa li{
+         width: 22%;
+    }
+    .shuaka{
+   height: 115px;
+ 
+}
+.biankuang{
+  margin-top:0px; 
+}
+
+}

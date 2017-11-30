@@ -1,0 +1,78 @@
+.shuaka{
+	    margin-top: 5px;
+	height: 120px;
+	margin-bottom: 20px; 
+}
+.yinghang{
+	width: 90%;
+	height: 166px;
+	margin-top:10px; 
+	border: 1px solid rgb(72, 130, 210);
+	padding:10px; 
+	margin-bottom: 30px;
+}
+.yinghang span{
+float: left;
+margin-right: 10px;
+
+}
+.kuang1{
+	width: 120px;
+	height: 25px;
+}
+.duanluoq{
+	display: block;
+	width: 138px;
+	height: 25px;
+	margin-top:25px; 
+}
+.aaaa{
+	margin-top:10px; 
+}
+.fenhong{
+	color:  #c42348;
+	font-size: 16px;
+	margin-bottom:20px; 
+}
+.anniu{
+	margin-top:60px; 
+}
+.right-right{
+	margin-top: 3px;
+}
+.inp input{
+	height:25px;
+	border: 1px solid #ccc;
+}
+.inp1 input{
+	height:25px;
+	border: 1px solid #ccc;
+}
+.inp2 input{
+	height:25px;
+	border: 1px solid #ccc;
+}
+@media (max-width: 768px){
+   .yinghang span{
+      display: flex;
+      margin-top:10px; 
+      width: 100%;
+   }
+   .yinghang{
+   	height: 250px;
+   }
+   .yinghang span p{
+   	    width: 28%;
+    margin-right: 20px;
+}
+   }
+
+@media (max-width: 767px){
+.yinghang{
+    height: 323px;
+}
+.yinghang p{
+   width: 20%
+}
+
+}

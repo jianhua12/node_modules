@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+.faq-content{
+	width: 90%;
+	margin: auto;
+	border: 5px solid  rgb(250, 214, 25);
+	border-radius: 10px;
+	height: 100%;
+}
+.tupian{
+	width: 204px;
+	height: 140px;
+	margin-top:30px;
+  	margin-left: 30px; 
+
+}
+  .tupian img{
+  	width: 100%;
+  	height: 100%;
+  	
+  }
+  .leibiao{
+      width: 100%;
+      height:100%;
+      margin-bottom: 50px; 
+    
+     padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 0;
+  }
+  .leibiao p{
+  	display: inline-block;
+  	
+  }
+  .leibiao a{
+       display:block;
+       height: 25px;
+       width: 60px;
+       background-color: rgb(196, 35, 72);
+       text-align: center;
+       float: right;
+       border-radius: 5px;
+      padding: 5px; 
+      color: #fff;
+  }
+
+
+
+
+/*      */
+
+.faq1-content{
+	width: 96%;
+	height: 100%;
+	margin: auto;
+	border:1px solid #ccc; 
+
+}
+.faq-left{
+	width: 40%;
+	height: 100%;
+}
+.faq1-tupian{
+	border: 1px solid #ccc;
+	height: 35px;
+	width: 100%;
+
+}
+.faq1-tupian img{
+	float: right;
+}
+.biankuang{
+	width: 100%;
+	height:100%;
+	border: 1px solid #ccc;
+	padding-top:20px; 
+}
+.faq1-wenz{
+	width: 100%;
+	height:100%;
+	border-top: 1px dashed #000;
+	margin-bottom: 30px; 
+}
+.faq1-wenz .wen1{
+   font-weight: 700;   
+   font-size: 35px;
+   margin-left:10px; 
+}
+.faq1-fleat{
+	float: right;
+	display: inline-block;
+}
+.faq-right{
+	float: right;
+	height: 360px;
+  padding-left: 10px;
+}
+.tupin{
+	width: 280px;
+	height: 240px;
+	margin-top:66px;  
+	margin-right: 100px;
+}
+.faq-shijian{
+	margin-top: 20px;
+}
+ .faq-duanluo{
+       display: none;
+       
+     }
+     
+
+/*    */
+
+      @media(max-width: 767px){
+       .faq1-content{
+       	width: 100%;
+       	height: 100%;
+       }
+
+       .faq-right{
+       	width: 100%;
+       	height: 100%;
+       }
+  
+       .tupian{
+       	width: 77%;
+       	height: 100%;
+       }
+
+       .faq-left{
+       display: none;      
+
+        }
+
+     .faq-duanluo{
+       display: block;
+       color: #c42348;
+     
+     }
